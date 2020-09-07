@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Button,Badge,Alert } from 'react-bootstrap';
+import { Container,Button,Badge,Alert,Navbar } from 'react-bootstrap';
 import './FriendsAndSalary.css';
 
 const FriendsAnSalary = (props) => {
@@ -7,8 +7,8 @@ const FriendsAnSalary = (props) => {
     const totalSalary = props.salaryNFriends.reduce( (total, user) => total + user.salary ,0)
     return (
         <div>
-            <Container>
-                <Alert variant="success" className="text-center">
+            <Container fluid>
+                <Alert variant="success" className="justify-content-md-center text-center fixed-top custom-alert">
                     <Alert.Heading>Hey, here is your total Friends and Salary count!</Alert.Heading>
                         <hr />  
                     <p className="mb-0">
