@@ -1,4 +1,10 @@
-.App {
+.main{
+  background-color: burlywood;
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
